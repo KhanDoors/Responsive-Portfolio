@@ -226,3 +226,14 @@ nav a {
         cursor: pointer;
     }
 
+    @media screen and (max-width: 980px) {
+        background: #4aaaa5;
+             }
+
+    @media screen and (max-width: 768px) {
+        background: #3c8113;
+                     }
+
+    @media screen and (max-width: 640px) {
+        background: #b8248b;
+                             }
