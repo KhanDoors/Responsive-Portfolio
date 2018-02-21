@@ -226,14 +226,20 @@ nav a {
         cursor: pointer;
     }
 
-    @media screen and (max-width: 980px) {
-        background: #4aaaa5;
-             }
+    @media only screen and (max-width: 980px) {
+        body {
+            background-color: rgb(44, 224, 83);
+        }
+    }
 
-    @media screen and (max-width: 768px) {
-        background: #3c8113;
-                     }
+    @media only screen and (max-width: 768px) {
+        body {
+            background-color: rgb(183, 185, 29);
+        }
+    }
 
-    @media screen and (max-width: 640px) {
-        background: #b8248b;
-                             }
+    @media only screen and (max-width: 640px) {
+        body {
+            background-color: rgb(206, 43, 165);
+        }
+    }
